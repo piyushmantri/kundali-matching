@@ -1,0 +1,11 @@
+{
+  "name": "Test Candidate",
+  "dob": "1993-03-21",
+  "tob": "08:15",
+  "pob": "Delhi, India",
+  "tz": "Asia/Kolkata",
+  "lat": 28.6139,
+  "lon": 77.209,
+  "gender": "male",
+  "notes": ""
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "kundali-match",
+  "name": "Kundali Match",
+  "type": "code",
+  "description": "(Heuristic v1; not ephemeris-accurate.) Vedic astrology matchmaking assistant — Ashtakoot/Guna Milan + Mangal/Nadi/Rajju dosha framing. Compares each new query against a fixed profile stored on disk.",
+  "required_env_vars": [],
+  "system_prompt": null,
+  "knowledge_base": null,
+  "slash_commands": [
+    { "name": "set-profile", "description": "Set or update the fixed Kundali profile for matching" },
+    { "name": "match", "description": "Compute Ashtakoot compatibility between fixed profile and a candidate. Args: JSON with name, dob (YYYY-MM-DD), gender, optional tob/pob." }
+  ]
+}
